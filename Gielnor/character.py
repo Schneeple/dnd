@@ -72,7 +72,7 @@ class me(object):
         self.health = 16
         self.agility = 13 + 5
         self.herblore = 8
-        self.theiving = 13 + 15
+        self.thieving = 13 + 15
         self.crafting = 13 + 5
         self.fletching = 15
         self.slayer = 18
@@ -84,9 +84,8 @@ class me(object):
         self.firemaking = 15+15
         self.woodcutting = 3+13
         self.farming = 13+15
-
         self.all = np.array([self.attack , self.strength , self.defence , self.range , self.prayer , self.magic , self.runecrafting ,\
-            self.construction , self.health , self.agility , self.herblore , self.theiving , self.crafting , self.fletching ,\
+            self.construction , self.health , self.agility , self.herblore , self.thieving , self.crafting , self.fletching ,\
                 self.slayer , self.hunting , self.mining , self.smithing , self.fishing , self.fishing , self.cooking , self.firemaking ,\
                     self.woodcutting , self.farming ] )
         self.total = self.all.sum()
